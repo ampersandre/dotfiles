@@ -67,6 +67,7 @@ plugins=(
   osx
   docker
   gradle
+  brew
   npm
   vscode
   zsh-autosuggestions
