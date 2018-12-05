@@ -61,6 +61,7 @@ ENABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
 
 plugins=(
+  aws
   git
   mercurial
   iterm2
