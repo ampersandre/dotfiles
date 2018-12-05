@@ -61,14 +61,15 @@ ENABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
 
 plugins=(
-  aws
+  encode64
+  extract
   git
+  git-extras
   mercurial
   iterm2
   osx
   docker
   gradle
-  brew
   npm
   vscode
   zsh-autosuggestions
