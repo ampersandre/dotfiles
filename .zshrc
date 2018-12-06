@@ -57,21 +57,18 @@ POWERLEVEL9K_VCS_GIT_GITHUB_ICON='\uF408 '
 
 ZSH_DISABLE_COMPFIX=true
 
-ENABLE_CORRECTION="true"
-COMPLETION_WAITING_DOTS="true"
+ENABLE_CORRECTION="false"
 
 plugins=(
   encode64
   extract
   git
-  git-extras
   mercurial
   iterm2
   osx
   docker
   gradle
   npm
-  vscode
   zsh-autosuggestions
   zsh-syntax-highlighting
   zsh-completions
@@ -79,8 +76,6 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-unsetopt correct_all
-setopt +o nomatch
 
 if [ -f ~/.profile ]; then
   source ~/.profile
