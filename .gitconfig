@@ -1,0 +1,36 @@
+[alias]
+    # list aliases
+    aliases = !git config -l | grep alias | cut -c 7-
+
+    # pretty log
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+    # commit helpers
+    cm = commit -m
+    cam = commit -a -m
+    
+    # diff helpers
+    d = diff
+    ds = diff --stat
+    dc = diff --cached
+
+    # branch helpers
+    st = status 
+    co = checkout
+    cob = checkout -b
+
+    cod = checkout develop
+    codp = !git checkout develop && git pull
+
+    com = checkout master
+    comp = !git checkout master && git pull
+
+    cor = checkout release
+    corp = !git checkout release && git pull
+    
+    # list branches sorted by last modified
+    b = "!git for-each-ref --sort='-authordate' --format='%(authordate)%09%(objectname:short)%09%(refname)' refs/heads | sed -e 's-refs/heads/--'"
+
+    # Delete any branches that have been merged into master
+    # See also: https://gist.github.com/robmiller/5133264
+    purge = "!git co master && git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"

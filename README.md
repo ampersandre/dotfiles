@@ -10,6 +10,14 @@ Or
 **Just use it (Easier)**
 1. Copy the contents of [`.zshrc`](https://github.com/ampersandre/dotfiles/blob/master/.zshrc) from this repo directly into your local `~/.zshrc`
 
+# Gitconfig Usage
+1. Add the following to the **top** of your own `~/.gitconfig` file:
+```
+[include]
+    path = ~/path/to/dotfiles/.gitconfig
+```
+2. `git aliases` to list aliases
+
 
 ## Resources
 - https://github.com/robbyrussell/oh-my-zsh
