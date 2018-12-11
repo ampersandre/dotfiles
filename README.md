@@ -1,6 +1,13 @@
 # Installation
 1. `git clone git@github.com:ampersandre/dotfiles.git`
 
+# Zsh Setup
+1. Install zsh: `brew install zsh`
+2. Install oh-my-zsh: `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+3. Install zsh-completions plugin: `git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugins/zsh-completions`
+4. Install zsh-syntax-highlighting: `git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting`
+5. Install zsh-autosuggestions: `git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions`
+
 # Zsh Config Usage
 1. Add the following to the **top** of your own `~/.zshrc` file
 ```
