@@ -20,13 +20,13 @@
     cob = checkout -b
 
     cod = checkout develop
-    codp = !git checkout develop && git pull
+    codp = !git checkout develop && git pull --rebase
 
     com = checkout master
-    comp = !git checkout master && git pull
+    comp = !git checkout master && git pull --rebase
 
     cor = checkout release
-    corp = !git checkout release && git pull
+    corp = !git checkout release && git pull --rebase
     
     # list branches sorted by last modified
     b = "!git for-each-ref --sort='-authordate' --format='%(authordate)%09%(objectname:short)%09%(refname)' refs/heads | sed -e 's-refs/heads/--'"
