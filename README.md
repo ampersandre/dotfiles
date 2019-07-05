@@ -27,7 +27,14 @@ By default, word jumps (option + → or ←) and word deletions (option + backsp
 ```
 source ~/path/to/dotfiles/.zshrc
 ```
-2. Add your custom settings beneath that to suit your needs
+2. Add your own settings beneath that to suit your needs
+
+# Profile Config Usage
+1. Add the following to the **top** of your own `~/.profile` file
+```
+source ~/path/to/dotfiles/.profile
+```
+2. Add your own settings beneath that to suit your needs
 
 # Gitconfig Usage
 1. Add the following to the **top** of your own `~/.gitconfig` file
