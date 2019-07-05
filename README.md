@@ -4,6 +4,16 @@
 # Install iTerm2
 1. https://www.iterm2.com/
 
+
+## Install a patched font
+- [Meslo](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Meslo/L-DZ/complete/Meslo%20LG%20L%20DZ%20Regular%20Nerd%20Font%20Complete.otf)
+
+Set this font in iTerm2 (iTerm → Preferences → Profiles → Text → Change Font) for "Font" and for "Non-ASCII Font". Restart iTerm2.
+
+## Enable word jumps and word deletion, aka natural text selection
+
+By default, word jumps (option + → or ←) and word deletions (option + backspace) do not work. To enable these, go to "iTerm → Preferences → Profiles → Keys → Load Preset... → Natural Text Editing"
+
 # Zsh Setup
 1. Install zsh: `brew install zsh`
 2. Install oh-my-zsh: `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
