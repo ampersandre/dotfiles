@@ -1,6 +1,9 @@
 # Installation
 1. `git clone git@github.com:ampersandre/dotfiles.git`
 
+# Install iTerm2
+1. https://www.iterm2.com/
+
 # Zsh Setup
 1. Install zsh: `brew install zsh`
 2. Install oh-my-zsh: `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
