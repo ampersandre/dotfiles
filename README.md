@@ -6,7 +6,7 @@
 
 
 ## Install a patched font
-- [Meslo](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Meslo/L-DZ/complete/Meslo%20LG%20L%20DZ%20Regular%20Nerd%20Font%20Complete.otf)
+- [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts)
 
 Set this font in iTerm2 (iTerm → Preferences → Profiles → Text → Change Font) for "Font" and for "Non-ASCII Font". Restart iTerm2.
 
