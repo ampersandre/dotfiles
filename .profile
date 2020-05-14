@@ -17,6 +17,8 @@ moon() { curl wttr.in/Moon; }
 # cd
 alias cd..='cd ..'
 alias ..='cd ..'
+alias kube='kubectl'
+alias kubetcl='kubectl'
 
 #cd helper
 cd() {      

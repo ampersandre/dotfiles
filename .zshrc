@@ -75,6 +75,13 @@ plugins=(
   z
 )
 
+autoload -Uz compinit
+compinit
+
+source <(kubectl completion zsh)
+complete -F __start_kubectl kube
+
+
 source $ZSH/oh-my-zsh.sh
 
 if [ -f ~/.profile ]; then
